@@ -1,0 +1,30 @@
+{
+  "name": "forward-pg-tunnel",
+  "version": "1.0.0",
+  "description": "This package allows you to transfer access to the postgres database through a tunnel",
+  "main": "pg-tunnel.ts",
+  "scripts": {
+    "dev": "npx ts-node pg-tunnel.ts"
+  },
+  "keywords": [
+    "tunnel",
+    "pg",
+    "ssh"
+  ],
+  "author": "Mikhailo Kravtsov",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.9",
+    "pg": "^8.11.1",
+    "ssh-tunneling": "^1.1.20",
+    "ssh2": "^1.14.0",
+    "tunnel-ssh": "^5.1.1",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/config": "^3.3.0",
+    "@types/pg": "^8.10.2",
+    "@types/ssh2": "^1.11.13",
+    "ts-node": "^10.9.1"
+  }
+}

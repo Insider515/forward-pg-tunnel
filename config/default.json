@@ -1,0 +1,31 @@
+{
+    "sshConfig": {
+        "host": "",
+        "port": 1024,
+        "username": "",
+        "password": "",
+        "privateKey": ""
+    },
+    "tunnelOptions": {
+        "autoClose": true
+    },
+    "serverOptions": {
+        "host": "localhost",
+        "port": 5432
+    },
+    "forwardOptions": {
+        "srcPort": 5432,
+        "dstAddr": "192.168.0.102",
+        "dstPort": 5432
+    },
+    "pgClient": {
+        "user": "pgsql",
+        "host": "localhost",
+        "database": "pgsql",
+        "password": "pgsql",
+        "port": 5432
+    },
+    "visible": {
+        "show": true
+    }
+}
