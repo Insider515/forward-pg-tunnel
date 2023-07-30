@@ -7,6 +7,9 @@
 Package for creating an ssh tunnel and sending additional messages to the PostgreSQL database
 
 ## Getting started
+```
+npm i forward-pg-tunnel
+```
 To start, you need to fill in the default configuration file located in the config folder.
 
 ### Configuration file
@@ -47,6 +50,11 @@ dbConnector.runQuery("SELECT * FROM regions limit 5");
 Пакет для створення ssh тунелю та пробросу досупів до бази данних PostgreSQL
 
 ## Початок роботи
+
+```
+npm i forward-pg-tunnel
+```
+
 Для пзапуску необхідно заповнити конфігураційний файл default котрий знаходиться в папці config.
 
 ### Конфігуційний файл
