@@ -100,5 +100,5 @@ class PostgreTunnelConnector {
                 });
         });
     }
-export { PostgreTunnelConnector };
 }
+export { PostgreTunnelConnector };
